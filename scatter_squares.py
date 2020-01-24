@@ -11,6 +11,6 @@ ax.set_title("Square Numbers",fontsize = 24)
 ax.set_xlabel('Vale', fontsize = 14)
 ax.set_ylabel('Square of Value', fontsize = 14)
 ax.tick_params(axis ='both', which ='major',labelsize = 14)
-#set the range for each axis
+# set the range for each axis
 ax.axis([0,1100,0,1100000])
 plt.savefig('squares_plot.png',bbox_inches ='tight')
